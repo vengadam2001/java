@@ -45,7 +45,7 @@ class graph{
 
     }
 }
-public class shortpath {
+public class Shortpath {
     public static void main(String args[])
     {
     }
