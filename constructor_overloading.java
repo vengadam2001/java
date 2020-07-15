@@ -1,6 +1,8 @@
 
 
-//create a class named programming while creating a object of the class i fnpothing is passed to it then the msg i love programming should be printed if some string is passed to it then in place o fprogramming language the name of the str variable should be printed
+//create a class named programming while creating a object of the class i fnpothing is passed to it then
+//the msg i love programming should be printed if some string is passed to it then in place of
+// programming language the name of the str variable should be printed
 //for ex while we are creating an object we pass we pass java then i love java should be printed
 class programming{
     programming(){
