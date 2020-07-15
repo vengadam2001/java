@@ -1,0 +1,162 @@
+data types in a class:
+member variable-variables in a class (int a =0; here a is a variable)
+member function -functions in a class(the functions declared in a class)
+member class- class which is declared in same class
+ 
+class is the blue print of the program
+
+
+inheritance :
+paran class:- super class base class
+chidclass:- sub-class
+
+keyword extends
+ 
+in java single level and multi level inheritance only possible.
+
+.creaye a classnmae programename while creating a object of the class if nothing is passed to it
+then the message "i love programming language should be printed" if some string is pased to it then 
+in place of programming language the name of the string variable ;
+for example":
+if we pass java
+*this will point the current class
+*function overloading
+
+2.ram is an explorer where he likes to meet many people below are the constraints in the way he talks to the people 
+a)if he meet strangerr "he will just say good morbing"
+b)if he meets a known person"he wilk say good morning hoe arew you"
+
+c)if he meets a beloved person "he will say bgf"
+d)implement ram state and behaviour in java form use  method overloading to differentiate his way of talking to when 
+
+
+
+CLEANING AND ....
+*nulling the reffernce
+*assigning the ref to another reff
+*anonomus object creation
+1)nulling the reffernce
+system.gc()
+if yu want to print anything before cleaning
+void.finalize(){
+
+
+  }
+class a{
+class b{
+}
+}
+creating object for inner class
+a.obj=new a();
+a.b obj1=obj.new b();
+
+inner class
+
+INHERITANCE:
+parent class-superclass,base class
+child class-subclass
+
+
+
+
+
+SETTER AND GETTER:
+setter  function to assign value to the object
+getter function to return the value of the object
+
+keywords:extends
+1.single
+2.multiple -interface
+3.multilevel
+
+single
+A to B
+MULTILEVEL:
+A TO B TO C
+multiple -not supportive
+
+ARRAY LIST:
+an array of dynamic array:
+import.java.util.ArrayList;
+definition:
+ArrayList<String> list=new ArrayList<>();
+list.add("india")
+all things will be added at the end by default
+
+INSERTION at a specific position
+list.add(1,"nepal")
+list.remove(1);
+list.contains("returns boolean value")
+list.clear()
+
+
+
+SET,HASHSET AND TREESET:
+set is an unordered collection of data cannot show duplicatevalue
+COLLECTIONS:
+set arraylist
+hashtest
+treetest
+
+
+MAP and HASHMAP:
+*key value pair
+MAP-interface
+HASHMAP-class that usees the interface
+MAP<string,string> fruits=new HASHMAP<>();
+for inserting the elements:
+fruits.put("red")
+for(Map.Entry pairentry:fruits.entrySet()){
+(pairentry.getkey()+""+pairentry.getvalue())
+}
+
+PROPERTIES OF MAP:
+*they contain values based on key
+*they are not ordered
+*key should not be duplicate
+*value cannot be duplicate
+
+
+
+DIFFERENCE BETWEEN STATIC AND NON-STATIC
+if any variable is static :
+*it will not create any external memory in heap
+if the variable is non static:
+*it will create a external memory in heap
+static variables will be under the class memory
+static variables are not associated with objects
+static methods are just a part class not object
+*the properties must also be static for a static function
+
+
+
+TYPES OF CLASSES:
+ *ABSTRACT
+ *FINAL
+ *DEFAULT
+ *PUBLIC
+ *PRIVATE(NESTED CLASS)
+ex:
+class a{
+ static void main(){
+
+
+}
+
+REPRESENTATION OF STATIC AND NON STATIC CLASSS:
+class RECTANGLE{
+public int getArea(int a,int b){
+return l*b
+}
+
+
+}
+class RECTANGLE{
+public static  int getArea(int a,int b){
+return l*b
+}
+
+
+}
+*main is static because it does not require any object it doesnt have values in the heap memory*
+this is an internal object for the class

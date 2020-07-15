@@ -1,0 +1,10 @@
+public class Zero{Public void eat(){System.out.println(Zero"");}}
+public class One{public void eat(){System.out.println("one");}}
+Public class Two extends One{public void eat(){System.out.println("two");}}
+
+public class Over_riding extends two{public static void main(String[] agrs){
+
+Two t=new Two();
+t.eat();
+t.super.eat();
+}}
