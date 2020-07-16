@@ -1,4 +1,4 @@
-import java.util.Scanner;//used for getting input from the user
+import java.util.*;//used for getting input from the user
 public class Sample
 {
 public static void main(String args[])
@@ -223,11 +223,10 @@ System.out.println(a2*(a2-1)/2);
 //end of code
 
 //print the attandance of the student and check wether is he capable to write the exam(condition attandance is greater than 75%) .get the no of days present and the total no of days...
-
+*/
 float held=input.nextFloat(),attended=input.nextFloat(); 
 System.out.println(attended*100/held);
 System.out.println(((attended*100/held)>75)?"eligible":"not eligible");
-*/
-
+input.close();
 }
 }
