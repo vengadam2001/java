@@ -29,7 +29,7 @@ public class Over_riding extends Two{
   {
   Two t=new Two(); 
   t.eat();
-  t.eat()
+  t.eat();
 
   }
 }
