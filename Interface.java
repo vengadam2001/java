@@ -28,5 +28,9 @@ public class Interface implements g,h{
         a.run2();
         a.show();
         a.display();
+        System.out.println("j"+'a'+'v'+'a');
+        System.out.println('j'+'a'+"v"+'a');
+        String d="1234";
+        System.out.println(d+"  "+d.length());
     }
 }
