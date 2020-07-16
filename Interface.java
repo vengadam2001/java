@@ -23,6 +23,7 @@ public class Interface implements g,h{
         // TODO Auto-generated method stub
         System.out.println("showing");
     }
+
     public static void main(String args[]) {
     Interface a =new Interface();
         a.run2();
