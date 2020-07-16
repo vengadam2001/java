@@ -37,14 +37,14 @@ class ll
        Scanner input = new Scanner(System.in);
        friend.id=input.nextLong();
        friend=this.search(friend.id);
-       users.nooffriends+=1;
-       users=Arrays.copyOf(users,friend.nooffriends);
-       user.friends[users.nooffriends]=friend;
+       user.nooffriends+=1;
+       users.friends=Arrays.copyOf(users.friends,friend.nooffriends);
+       user.friends[user.nooffriends]=friend;
        if (friend==null)System.out.println("not found");
        else System.out.println("friend added");
        input.close();
    }
-   node search(int id){
+   node search(long id){
        node temp=null;
        while(temp != null){
            if (temp.id ==id)
