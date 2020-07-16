@@ -2,12 +2,19 @@
 
 class sample{
     int a;
+    sample(){
+    System.out.println("sample");
+    }
 }
 public class inheitance extends sample {
     int b;
-public static void main()
+    inheitance(){
+    System.out.println("inheritance");
+    }
+    public static void main()
 {
     inheitance hello =new inheitance();
+    System.out.println(hello.a+" "+hello.b);
 }
 }
 

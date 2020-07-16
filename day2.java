@@ -98,6 +98,6 @@ for (int z=0;z<k.length;z++)
 }
 */
 //searching in a linear 1-d array
-String myStr="jhbae"
+String myStr="jhbae";
     System.out.println(myStr.indexOf("e", 5));
 }}

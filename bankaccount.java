@@ -89,6 +89,7 @@ public class bankaccount {
         while (temp != null) {
             if (temp.accid == id) return (temp);
             temp = temp.before;
-        return (null);
+        }
+        return (temp);
     }
 }
