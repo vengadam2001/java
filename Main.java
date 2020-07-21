@@ -12,7 +12,6 @@ public class Main {
         JButton free= new JButton("Get Free"); 
 
         JButton premium= new JButton("Get Premium"); 
-
         JButton reset = new JButton("Reset option"); 
         r1.setBounds(10, 50, 140, 30); 
 
